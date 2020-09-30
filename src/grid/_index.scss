@@ -1,0 +1,45 @@
+$grid-cols: 12;
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@for $i from 1 through $grid-cols {
+  .col-#{$i} {
+    flex-basis: (100 / ($grid-cols / $i)) * 1%;
+  }
+}
+
+@media (min-width: 640px) {
+  @for $i from 1 through $grid-cols {
+    .col-sm-#{$i} {
+      flex-basis: (100 / ($grid-cols / $i)) * 1%;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  @for $i from 1 through $grid-cols {
+    .col-md-#{$i} {
+      flex-basis: (100 / ($grid-cols / $i)) * 1%;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  @for $i from 1 through $grid-cols {
+    .col-lg-#{$i} {
+      flex-basis: (100 / ($grid-cols / $i)) * 1%;
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  @for $i from 1 through $grid-cols {
+    .col-xl-#{$i} {
+      flex-basis: (100 / ($grid-cols / $i)) * 1%;
+    }
+  }
+}
