@@ -1,4 +1,8 @@
 .d {
+  &-flex {
+    display: flex;
+  }
+
   &-block {
     display: block;
   }
@@ -12,8 +16,12 @@
   }
 }
 
-@media (min-width:640px) {
+@media (min-width: 640px) {
   .d-sm {
+    &-flex {
+      display: flex;
+    }
+
     &-block {
       display: block;
     }
@@ -28,8 +36,12 @@
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .d-md {
+    &-flex {
+      display: flex;
+    }
+
     &-block {
       display: block;
     }
@@ -44,8 +56,12 @@
   }
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
   .d-lg {
+    &-flex {
+      display: flex;
+    }
+
     &-block {
       display: block;
     }
@@ -60,8 +76,12 @@
   }
 }
 
-@media (min-width:1280px) {
+@media (min-width: 1280px) {
   .d-xl {
+    &-flex {
+      display: flex;
+    }
+
     &-block {
       display: block;
     }
