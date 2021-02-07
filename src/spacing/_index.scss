@@ -1,6 +1,6 @@
 $step: 2;
 
-@for $i from 0 through 15 {
+@for $i from 0 through 50 {
   .ma-#{$i} {
     margin: $i * $step + 0px;
   }
@@ -64,7 +64,7 @@ $step: 2;
 
 // for small-size devices
 @media (min-width: 640px) {
-  @for $i from 0 through 15 {
+  @for $i from 0 through 50 {
     .ma-sm-#{$i} {
       margin: $i * $step + 0px;
     }
@@ -129,7 +129,7 @@ $step: 2;
 
 // for medium-size devices
 @media (min-width: 768px) {
-  @for $i from 0 through 15 {
+  @for $i from 0 through 50 {
     .ma-md-#{$i} {
       margin: $i * $step + 0px;
     }
@@ -194,7 +194,7 @@ $step: 2;
 
 // for large-size devices
 @media (min-width: 1024px) {
-  @for $i from 0 through 15 {
+  @for $i from 0 through 50 {
     .ma-lg-#{$i} {
       margin: $i * $step + 0px;
     }
@@ -259,7 +259,7 @@ $step: 2;
 
 // for extra large-size devices
 @media (min-width: 1280px) {
-  @for $i from 0 through 15 {
+  @for $i from 0 through 50 {
     .ma-xl-#{$i} {
       margin: $i * $step + 0px;
     }
