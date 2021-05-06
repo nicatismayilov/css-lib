@@ -1,0 +1,157 @@
+.p {
+  &-static {
+    position: static;
+  }
+
+  &-absolute {
+    position: absolute;
+  }
+
+  &-fixed {
+    position: fixed;
+  }
+
+  &-relative {
+    position: relative;
+  }
+
+  &-sticky {
+    position: sticky;
+  }
+
+  &-initial {
+    position: initial;
+  }
+
+  &-inherit {
+    position: inherit;
+  }
+}
+
+@media (min-width: 640px) {
+  .p-sm {
+    &-static {
+      position: static;
+    }
+
+    &-absolute {
+      position: absolute;
+    }
+
+    &-fixed {
+      position: fixed;
+    }
+
+    &-relative {
+      position: relative;
+    }
+
+    &-sticky {
+      position: sticky;
+    }
+
+    &-initial {
+      position: initial;
+    }
+
+    &-inherit {
+      position: inherit;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .p-md {
+    &-static {
+      position: static;
+    }
+
+    &-absolute {
+      position: absolute;
+    }
+
+    &-fixed {
+      position: fixed;
+    }
+
+    &-relative {
+      position: relative;
+    }
+
+    &-sticky {
+      position: sticky;
+    }
+
+    &-initial {
+      position: initial;
+    }
+
+    &-inherit {
+      position: inherit;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .p-lg {
+    &-static {
+      position: static;
+    }
+
+    &-absolute {
+      position: absolute;
+    }
+
+    &-fixed {
+      position: fixed;
+    }
+
+    &-relative {
+      position: relative;
+    }
+
+    &-sticky {
+      position: sticky;
+    }
+
+    &-initial {
+      position: initial;
+    }
+
+    &-inherit {
+      position: inherit;
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .p-xl {
+    &-static {
+      position: static;
+    }
+
+    &-absolute {
+      position: absolute;
+    }
+
+    &-fixed {
+      position: fixed;
+    }
+
+    &-relative {
+      position: relative;
+    }
+
+    &-sticky {
+      position: sticky;
+    }
+
+    &-initial {
+      position: initial;
+    }
+
+    &-inherit {
+      position: inherit;
+    }
+  }
+}

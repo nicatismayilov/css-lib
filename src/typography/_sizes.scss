@@ -1,0 +1,229 @@
+.display {
+  &-1 {
+    font-size: 34px;
+  }
+
+  &-2 {
+    font-size: 48px;
+  }
+
+  &-3 {
+    font-size: 60px;
+  }
+
+  &-4 {
+    font-size: 96px;
+  }
+}
+
+.headline {
+  font-size: 24px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.body {
+  &-1 {
+    font-size: 16px;
+  }
+
+  &-2 {
+    font-size: 14px;
+  }
+}
+
+.caption {
+  font-size: 12px;
+}
+
+.overline {
+  font-size: 10px;
+}
+
+//-----------------------------
+
+@media (min-width: 640px) {
+  .display-sm {
+    &-1 {
+      font-size: 34px;
+    }
+
+    &-2 {
+      font-size: 48px;
+    }
+
+    &-3 {
+      font-size: 60px;
+    }
+
+    &-4 {
+      font-size: 96px;
+    }
+  }
+
+  .headline-sm {
+    font-size: 24px;
+  }
+
+  .title-sm {
+    font-size: 20px;
+  }
+
+  .body-sm {
+    &-1 {
+      font-size: 16px;
+    }
+
+    &-2 {
+      font-size: 14px;
+    }
+  }
+
+  .caption-sm {
+    font-size: 12px;
+  }
+
+  .overline-sm {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .display-md {
+    &-1 {
+      font-size: 34px;
+    }
+
+    &-2 {
+      font-size: 48px;
+    }
+
+    &-3 {
+      font-size: 60px;
+    }
+
+    &-4 {
+      font-size: 96px;
+    }
+  }
+
+  .headline-md {
+    font-size: 24px;
+  }
+
+  .title-md {
+    font-size: 20px;
+  }
+
+  .body-md {
+    &-1 {
+      font-size: 16px;
+    }
+
+    &-2 {
+      font-size: 14px;
+    }
+  }
+
+  .caption-md {
+    font-size: 12px;
+  }
+
+  .overline-md {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .display-lg {
+    &-1 {
+      font-size: 34px;
+    }
+
+    &-2 {
+      font-size: 48px;
+    }
+
+    &-3 {
+      font-size: 60px;
+    }
+
+    &-4 {
+      font-size: 96px;
+    }
+  }
+
+  .headline-lg {
+    font-size: 24px;
+  }
+
+  .title-lg {
+    font-size: 20px;
+  }
+
+  .body-lg {
+    &-1 {
+      font-size: 16px;
+    }
+
+    &-2 {
+      font-size: 14px;
+    }
+  }
+
+  .caption-lg {
+    font-size: 12px;
+  }
+
+  .overline-lg {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .display-xl {
+    &-1 {
+      font-size: 34px;
+    }
+
+    &-2 {
+      font-size: 48px;
+    }
+
+    &-3 {
+      font-size: 60px;
+    }
+
+    &-4 {
+      font-size: 96px;
+    }
+  }
+
+  .headline-xl {
+    font-size: 24px;
+  }
+
+  .title-xl {
+    font-size: 20px;
+  }
+
+  .body-xl {
+    &-1 {
+      font-size: 16px;
+    }
+
+    &-2 {
+      font-size: 14px;
+    }
+  }
+
+  .caption-xl {
+    font-size: 12px;
+  }
+
+  .overline-xl {
+    font-size: 10px;
+  }
+}

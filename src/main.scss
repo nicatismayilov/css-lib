@@ -1,4 +1,8 @@
-@import './display/index';
-@import './grid/index';
-@import './layout/index';
-@import './spacing/index';
+@import "./abstracts/mixins";
+@import "./display/index";
+@import "./grid/index";
+@import "./layout/index";
+@import "./spacing/index";
+@import "./position/index";
+@import "./typography/index";
+@import "./sizes/index";

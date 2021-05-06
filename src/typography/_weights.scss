@@ -1,0 +1,229 @@
+.font-weight-black {
+  font-weight: 900;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.font-weight-semibold {
+  font-weight: 600;
+}
+
+.font-weight-medium {
+  font-weight: 500;
+}
+
+.font-weight-regular {
+  font-weight: 400;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+
+.font-weight-thin {
+  font-weight: 100;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capital {
+  text-transform: capitalize;
+}
+
+//-----------------------------
+
+@media (min-width: 640px) {
+  .font-weight-sm-black {
+    font-weight: 900;
+  }
+
+  .font-weight-sm-bold {
+    font-weight: 700;
+  }
+
+  .font-weight-sm-semibold {
+    font-weight: 600;
+  }
+
+  .font-weight-sm-medium {
+    font-weight: 500;
+  }
+
+  .font-weight-sm-regular {
+    font-weight: 400;
+  }
+
+  .font-weight-sm-light {
+    font-weight: 300;
+  }
+
+  .font-weight-sm-thin {
+    font-weight: 100;
+  }
+
+  .font-sm-italic {
+    font-style: italic;
+  }
+
+  .text-sm-center {
+    text-align: center;
+  }
+
+  .text-sm-uppercase {
+    text-transform: uppercase;
+  }
+
+  .text-sm-capital {
+    text-transform: capitalize;
+  }
+}
+
+@media (min-width: 768px) {
+  .font-weight-md-black {
+    font-weight: 900;
+  }
+
+  .font-weight-md-bold {
+    font-weight: 700;
+  }
+
+  .font-weight-md-semibold {
+    font-weight: 600;
+  }
+
+  .font-weight-md-medium {
+    font-weight: 500;
+  }
+
+  .font-weight-md-regular {
+    font-weight: 400;
+  }
+
+  .font-weight-md-light {
+    font-weight: 300;
+  }
+
+  .font-weight-md-thin {
+    font-weight: 100;
+  }
+
+  .font-md-italic {
+    font-style: italic;
+  }
+
+  .text-md-center {
+    text-align: center;
+  }
+
+  .text-md-uppercase {
+    text-transform: uppercase;
+  }
+
+  .text-md-capital {
+    text-transform: capitalize;
+  }
+}
+
+@media (min-width: 1024px) {
+  .font-weight-lg-black {
+    font-weight: 900;
+  }
+
+  .font-weight-lg-bold {
+    font-weight: 700;
+  }
+
+  .font-weight-lg-semibold {
+    font-weight: 600;
+  }
+
+  .font-weight-lg-medium {
+    font-weight: 500;
+  }
+
+  .font-weight-lg-regular {
+    font-weight: 400;
+  }
+
+  .font-weight-lg-light {
+    font-weight: 300;
+  }
+
+  .font-weight-lg-thin {
+    font-weight: 100;
+  }
+
+  .font-lg-italic {
+    font-style: italic;
+  }
+
+  .text-lg-center {
+    text-align: center;
+  }
+
+  .text-lg-uppercase {
+    text-transform: uppercase;
+  }
+
+  .text-lg-capital {
+    text-transform: capitalize;
+  }
+}
+
+@media (min-width: 1280px) {
+  .font-weight-xl-black {
+    font-weight: 900;
+  }
+
+  .font-weight-xl-bold {
+    font-weight: 700;
+  }
+
+  .font-weight-xl-semibold {
+    font-weight: 600;
+  }
+
+  .font-weight-xl-medium {
+    font-weight: 500;
+  }
+
+  .font-weight-xl-regular {
+    font-weight: 400;
+  }
+
+  .font-weight-xl-light {
+    font-weight: 300;
+  }
+
+  .font-weight-xl-thin {
+    font-weight: 100;
+  }
+
+  .font-xl-italic {
+    font-style: italic;
+  }
+
+  .text-xl-center {
+    text-align: center;
+  }
+
+  .text-xl-uppercase {
+    text-transform: uppercase;
+  }
+
+  .text-xl-capital {
+    text-transform: capitalize;
+  }
+}
