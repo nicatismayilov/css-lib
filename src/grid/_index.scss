@@ -3,12 +3,15 @@ $grid-cols: 12;
 .row {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  margin-left: -8px;
+  margin-right: -8px;
 }
 
 @for $i from 1 through $grid-cols {
   .col-#{$i} {
     flex-basis: (100 / ($grid-cols / $i)) * 1%;
+    padding-right: 8px;
+    padding-left: 8px;
   }
 }
 
@@ -16,6 +19,8 @@ $grid-cols: 12;
   @for $i from 1 through $grid-cols {
     .col-sm-#{$i} {
       flex-basis: (100 / ($grid-cols / $i)) * 1%;
+      padding-right: 8px;
+      padding-left: 8px;
     }
   }
 }
@@ -24,6 +29,8 @@ $grid-cols: 12;
   @for $i from 1 through $grid-cols {
     .col-md-#{$i} {
       flex-basis: (100 / ($grid-cols / $i)) * 1%;
+      padding-right: 8px;
+      padding-left: 8px;
     }
   }
 }
@@ -32,6 +39,8 @@ $grid-cols: 12;
   @for $i from 1 through $grid-cols {
     .col-lg-#{$i} {
       flex-basis: (100 / ($grid-cols / $i)) * 1%;
+      padding-right: 8px;
+      padding-left: 8px;
     }
   }
 }
@@ -40,6 +49,8 @@ $grid-cols: 12;
   @for $i from 1 through $grid-cols {
     .col-xl-#{$i} {
       flex-basis: (100 / ($grid-cols / $i)) * 1%;
+      padding-right: 8px;
+      padding-left: 8px;
     }
   }
 }
